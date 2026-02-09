@@ -1,12 +1,11 @@
 # LightRAG-HKU: librería para trabajar con RAG (Retrieval-Augmented Generation).
-# En términos simples: ayuda a que la IA busque en documentos y responda con contexto.
+# En términos simples: permite que la IA busque en documentos y responda con contexto adicional.
 lightrag-hku
 
-# Google Generative AI: SDK oficial para usar Gemini.
-# En términos simples: conecta tu código con la IA de Google para generar texto y embeddings.
+# Google Generative AI: SDK oficial para interactuar con Gemini.
+# En términos simples: conecta tu código con la IA de Google para generar texto y crear embeddings.
 google-genai
 
-# Python-dotenv: carga variables desde un archivo .env.
-# En términos simples: permite guardar claves secretas (como tu API key) en un archivo separado y seguro.
+# Python-dotenv: carga variables de entorno desde un archivo .env.
+# En términos simples: te permite guardar claves secretas (como tu API key) en un archivo separado y seguro.
 python-dotenv
-
