@@ -33,11 +33,11 @@ print("Esto es de tipo: ",who_are_you)
 rag = LightRAG(
     working_dir=WORKING_DIR,              # Carpeta donde se guardan los datos del grafo y los embeddings
     llm_model_func=gemini_model_complete, # Función que conecta con Gemini para generar texto o responder preguntas
-    llm_model_name='gemini-1.5-flash',    # Nombre del modelo de Gemini usado (rápido y económico para prototipos)
-    embedding_func=gemini_embed,          # Función que convierte texto en embeddings (vectores numéricos)
-    embedding_dim=768,                    # Tamaño de cada embedding (768 números por texto)
+    llm_model_name='gemini-1.5-flash',    # Nombre del modelo de Gemini usado
+    embedding_func=gemini_embed,          # Función que convierte texto en embeddings
     embedding_model_name='models/text-embedding-004' # Modelo de Gemini que genera los embeddings
 )
+
 
 async def main():
     texto_ejemplo="Patrick es muy bueno  con python xd :V dios mio"
@@ -58,7 +58,7 @@ async def main():
                                       #   • "hybrid": combina ambos enfoques para mayor precisión
         )
     )
-    
+
 
     print("Resultado :", result )
 
