@@ -29,8 +29,6 @@ Este proyecto implementa un sistema **RAG (Retrieval-Augmented Generation)** uti
 pip install numpy python-dotenv google-genai lightrag
 ```
 
-````
-
 ---
 
 ## Configuración
@@ -130,6 +128,3 @@ Respuesta del sistema: Patrick es muy bueno con python xd :V dios mio
 - Asegúrate de tener una **clave válida de Google Gemini API**.
 - El parámetro `embedding_dim = 768` corresponde a la dimensión nativa del modelo **`text-embedding-004`**.
 - El modo de consulta **`hybrid`** combina búsqueda por grafo y similitud de cosenos para mejores resultados.
-
-```
-````
