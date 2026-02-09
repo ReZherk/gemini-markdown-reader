@@ -4,8 +4,9 @@ lightrag-hku
 
 # Google Generative AI: SDK oficial para usar Gemini.
 # En términos simples: conecta tu código con la IA de Google para generar texto y embeddings.
-google-generativeai
+google-genai
 
 # Python-dotenv: carga variables desde un archivo .env.
 # En términos simples: permite guardar claves secretas (como tu API key) en un archivo separado y seguro.
 python-dotenv
+

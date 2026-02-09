@@ -1,0 +1,16 @@
+{
+  "chunk-bcf89a45f6d68b793abdcb88e28e0e31": {
+    "tokens": 11,
+    "content": "Patrick es muy bueno con python xd :V dios mio",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bcf89a45f6d68b793abdcb88e28e0e31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:36c631c1cd38f7422ec532c150433bdc",
+      "default:extract:bb1fe99921c2663bea5f0380c50b8bf9"
+    ],
+    "create_time": 1770605413,
+    "update_time": 1770605416,
+    "_id": "chunk-bcf89a45f6d68b793abdcb88e28e0e31"
+  }
+}
